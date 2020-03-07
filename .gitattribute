@@ -1,2 +1,2 @@
-*.js linguist-vendored
+*.js linguist-language=python
 *.py linguist-language=python
