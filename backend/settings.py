@@ -28,16 +28,12 @@ SECRET_KEY = 'yq=&h+a&zjj_^-3ttmmqj@p#nmn5*-wmv6prxp@#h#&e*tfq53'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','wxdc.bsrse.com']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
 
 INSTALLED_APPS = [
-    #'simpleui',
-    #'simplepro',
-    #'simpleui',
-    #'import_export',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -200,5 +196,3 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 AUTH_USER_MODEL = 'weixinlogin.UserProfile'
 
-#SIMPLEUI_HOME_INFO = False
-#SIMPLEPRO_INFO = False
