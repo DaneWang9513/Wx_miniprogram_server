@@ -1,0 +1,1 @@
+default_app_config = 'queryNews.apps.QuerynewsConfig'
